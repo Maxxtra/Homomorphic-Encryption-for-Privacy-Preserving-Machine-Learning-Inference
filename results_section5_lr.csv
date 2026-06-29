@@ -1,0 +1,4 @@
+scheme,model,dataset,n_test_samples,accuracy,avg_ciphertext_size_bytes,latency_ms_per_sample,throughput_samples_per_sec
+PLAINTEXT,LogReg (0 vs 1),sklearn digits (64 feats),108,1.0,0.0,0.04644126871695604,21532.572809211237
+CKKS,LogReg (0 vs 1) + poly sigmoid,sklearn digits (64 feats),108,1.0,432468.9166666667,12.365481166785617,80.87028612247266
+BFV,LogReg (0 vs 1),sklearn digits (64 feats),108,1.0,432468.3703703704,2.5533672313839713,391.63970920782197

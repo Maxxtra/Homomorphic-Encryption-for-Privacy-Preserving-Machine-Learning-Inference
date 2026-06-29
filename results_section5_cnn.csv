@@ -1,0 +1,3 @@
+scheme,model,dataset,n_test_samples,accuracy,avg_ciphertext_size_bytes,latency_ms_per_sample,throughput_samples_per_sec
+PLAINTEXT,TinyCNN-features (conv+square+avgpool) + LogReg,"sklearn digits (8x8, 0 vs 1)",108,0.9814814814814815,0,0.8180470462388324,1222.4235813792616
+CKKS,Encrypted feature extraction + LogReg,"sklearn digits (8x8, 0 vs 1)",108,0.49074074074074076,432526,2055.086046907592,0.4865976300626237
